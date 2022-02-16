@@ -1,7 +1,5 @@
-body {
-  font-family: 'Permanent Marker'; }
-
 header {
+  font-family: 'Permanent Marker';
   -webkit-box-shadow: inset 0px 0px 20px 1px purple;
   box-shadow: inset 0px 0px 20px 1px purple;
   display: -webkit-box;
@@ -32,5 +30,36 @@ header {
     header ul li {
       font-size: 21px;
       margin-left: 30px; }
+
+.text-container {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .text-container .text-1 {
+    font-size: 20px;
+    margin: 80px 0 0 0;
+    width: 320px;
+    height: 500px;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+    text-indent: 50px;
+    padding: 0px 15px;
+    overflow: hidden; }
+    .text-container .text-1 .text-inset {
+      overflow: auto; }
+  .text-container .text-2 {
+    font-size: 20px;
+    margin: 80px 0 0 0;
+    width: 320px;
+    height: 500px;
+    border-left: 3px solid #15cc5b;
+    border-right: 3px solid #15cf2d;
+    text-indent: 50px;
+    padding: 0px 15px;
+    overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */

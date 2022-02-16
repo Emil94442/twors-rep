@@ -1,8 +1,7 @@
-body {
-    font-family: 'Permanent Marker';
-}
+
 
 header {
+    font-family: 'Permanent Marker';
     box-shadow: inset 0px 0px 20px 1px purple;
     display: flex;
     justify-content: space-around;
@@ -26,5 +25,38 @@ header {
             font-size: 21px;
             margin-left: 30px;
         }
+    }
+}
+
+
+.text-container {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    .text-1 {
+        font-size: 20px;
+        margin: 80px 0 0 0;
+        width: 320px;
+        height: 500px;
+        border-left: 3px solid blue;
+        border-right: 3px solid blue;
+        text-indent: 50px;
+        padding: 0px 15px;
+        overflow: hidden;
+        .text-inset {
+            overflow: auto;
+        }
+    }
+    .text-2 {
+        font-size: 20px;
+        margin: 80px 0 0 0;
+        width: 320px;
+        height: 500px;
+        border-left: 3px solid rgb(21, 204, 91);
+        border-right: 3px solid rgb(21, 207, 45);
+        text-indent: 50px;
+        padding: 0px 15px;
+        overflow: hidden;    
     }
 }
